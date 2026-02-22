@@ -71,7 +71,7 @@ const Dash = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='col ms-4 vendor-section'>
+                    <div className='col-9 ms-4 vendor-section'>
                         <div className="vendor-header">
                             <div
                                 className="d-flex justify-content-between align-items-center px-5 py-3"
@@ -117,19 +117,19 @@ const Dash = () => {
                         </div>
                         <div className='today-box mt-4 p-4' style={{ background: "#ffffff", borderRadius: "30px" }}>
                             <h5 className='fw-bold'>Today</h5>
-                            <div className="d-flex gap-4 mt-3 flex-wrap ">
+                            <div className="d-flex gap-3 mt-3 flex-wrap">
                                 {stats.map((item, index) => (
                                     <div
                                         key={index}
-                                        className="d-flex flex-column align-items-center px-5 py-4 "
+                                        className="d-flex flex-column align-items-center  "
                                         style={{
-                                            background: item.bg, borderRadius: "20px", width: "310px"
+                                            background: item.bg, borderRadius: "20px", width: "250px"
                                         }}
                                     >
-                                        <span className="fs-5 fw-semibold opacity-75">{item.title}</span>
+                                        <span className="fs-6 fw-medium fw-semibold opacity-75">{item.title}</span>
 
-                                        <div className="d-flex align-items-center gap-5 mt-4">
-                                            <span className="fs-3">{item.value}</span>
+                                        <div className="d-flex align-items-center gap-5 mt-3">
+                                            <span className="fs-5">{item.value}</span>
                                             <span style={{ color: item.color }} className='fs-6 opacity-50'>{item.change}</span>
                                         </div>
                                     </div>
@@ -140,11 +140,11 @@ const Dash = () => {
                                     {<img src={graph} className='graph'></img>}
                                 </div>
                                 <div className='col-3 mt-3 ' style={{ background: "rgb(242, 248, 255)", borderRadius: "20px" }} >
-                                    <h5 className='ms-3 mt-3'>Categories</h5>
+                                    <h5 className='ms-0 mt-3'>Categories</h5>
                                     <div className='grapn-cat d-flex flex-column gap-3 mt-3'>
                                         {categories.map((item, index) => {
                                             return (
-                                                <div className='d-flex  py-3 gap-5 ms-4 justify-content-center bg-white rounded-4' style={{ width: "250px" }}>
+                                                <div className='d-flex  py-3 gap-5 ms-0 justify-content-center bg-white rounded-4' style={{ width: "250px" }}>
                                                     <img src={item.img} alt={item.name} style={{ width: '40px' }} />
 
                                                     <div className="small fw-bold fs-6" >{item.name}</div>
