@@ -1,0 +1,87 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+.login-logo{
+  height:100vh;
+  width:100%;
+}
+.btn-warning{
+  background-color: rgb(245, 162, 8) !important;
+ padding:15px 30px 15px 30px !important;
+ margin-left: 50px !important;
+}
+.welcome-text{
+  font-family: 'Poppins', sans-serif !important;
+  font-size: 30px !important  ;
+  margin-top:100px;
+}
+.form-elements label{
+  font-size: 15px;
+  font-weight: 500;
+}
+.form-elements input{
+ width: 100%;
+  padding:10px !important;
+ border-radius: 8px !important;
+ border: 1px solid rgba(9, 9, 9, 0.2); 
+}
+.btn-primary{
+  width: 100%;
+}
+.form-body{
+  margin-left: 50px !important;
+}
+.login-body{
+   margin-left: 50px !important;
+}
+.pwd:hover{
+  background-color: rgb(228, 224, 224) !important;
+}
+
+.logo-section-logo{
+   background-color: rgb(37, 29, 14) !important;
+ padding:15px 20px 15px 20px !important;
+ margin-left: 20px !important;
+}
+.logo-section-button{
+ width: 250px;
+}
+.logo-section-button:hover{
+  background-color: rgb(17, 123, 235) !important;
+  color: white !important;
+}
+.icon-desc{
+  margin-right:070px;
+}
+
+.img-thumbnail{
+ width:200px !important;
+ height: 200px !important;
+}
+.btn-warnings{
+  background-color: rgb(245, 162, 8) !important;
+ padding:15px 30px 15px 30px !important;
+ margin-left: 50px !important;
+
+}
+.form-label{
+  font-size: 25px;
+}
+.form{
+  background-color:white;
+}
+.logo-section{
+   background-color:white;
+}
+.home-page{
+  background-color: #f3f4f6;
+}
+.custom-switch .form-check-input {
+  width: 10rem;
+  height: 1.5rem;
+}
+.form-check label{
+  font-size: 20px;
+}
